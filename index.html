@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kumo Interiors</title>
+    <link rel="icon" href="images/tab.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="header">
+      <div class="logo">
+        <a href="#home"><img src="images/logo.png" alt="" /></a>
+
+        <nav class="navbar">
+          <a href="#products">Trending</a>
+          <a href="#products">Collections</a>
+          <a href="#offers">Sale</a>
+          <a href="#updates">News</a>
+        </nav>
+      </div>
+
+      <div class="icons">
+        <a href="#" id="searchBtn"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></a>
+        <a href="#" id="userBtn"><i class="fa-solid fa-user"></i></a>
+        <a href="#" id="heartBtn"><i class="fas fa-heart"></i></a>
+        <a href="#" id="cartBtn"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#" id="menuBtn" class="fas fa-bars"></a>
+      </div>
+
+      <!-- LOGIN START -->
+      <div class="user-box" id="user">
+        <form action="">
+          <h1>Login</h1>
+          <input type="text" placeholder="username" class="input" />
+          <input type="password" placeholder="password" class="input" />
+
+          <div>
+            <div class="box">
+              <input type="checkbox" it="" class="check-box" /><span
+                >Remember Me</span
+              >
+            </div>
+            <a href="#">Lost Your Password?</a>
+          </div>
+
+          <button>Login</button>
+          <p>Not a member? <a href="#">Register</a></p>
+        </form>
+      </div>
+      <!-- LOGIN ENDS -->
+
+      <!-- SEARCH START -->
+      <div class="search-box" id="search">
+        <h1>Search Products</h1>
+
+        <div class="inputBox">
+          <input type="search" placeholder="product keywords..." />
+          <select>
+            <option value="1" selected>Choose Category</option>
+            <option value="2">Lounge Collection</option>
+            <option value="3">Kitchen Collection</option>
+            <option value="4">Bedroom Collection</option>
+            <option value="5">Bathroom Collection</option>
+            <option value="6">Lighting Collection</option>
+          </select>
+
+          <button>Search Products</button>
+        </div>
+
+        <div class="category">
+          <h2>Popular Categories</h2>
+
+          <div class="image-box">
+            <div class="image">
+              <a href="#"><i class="fa-solid fa-couch"></i></a>
+            </div>
+            <div class="image">
+              <a href=""><i class="fa-solid fa-mattress-pillow"></i></a>
+            </div>
+            <div class="image">
+              <a href=""><i class="fa-solid fa-bath"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- SEARCH END -->
+      <!-- SAVED PRODUCTS START -->
+      <div class="saved-products" id="saved">
+        <h1>Wish List</h1>
+
+        <div class="image-Box">
+          <div class="box">
+            <div class="image">
+              <img src="images/saved-product-1.jpg" alt="" />
+              <div class="content">
+                <h3>Lounge Collection #1</h3>
+                <p>$399</p>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-times"></i></a>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/saved-product-2.jpg" alt="" />
+              <div class="content">
+                <h3>Lounge Collection #7</h3>
+                <p>$249</p>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-times"></i></a>
+          </div>
+
+          <div class="box">
+            <div class="image">
+              <img src="images/saved-product-3.jpg" alt="" />
+              <div class="content">
+                <h3>Lounge Collection #16</h3>
+                <p>$129</p>
+              </div>
+            </div>
+            <a href="#"><i class="fas fa-times"></i></a>
+          </div>
+        </div>
+
+        <div class="total">
+          <p>Subtotal</p>
+          <span>$771.00</span>
+        </div>
+
+        <div class="btn">
+          <button>Add To Cart</button>
+        </div>
+      </div>
+
+      <!-- SAVED PRODUCTS END -->
+
+      <!-- CART START -->
+      <div class="cart-box" id="cart">
+        <div class="cart-head">
+          <h2>Shopping Cart (0)</h2>
+          <a href="#"><i class="fas fa-times"></i></a>
+        </div>
+
+        <div class="cart-body">
+          <p>Your Shopping Cart Is Empty</p>
+          <p class="message">Continue Shopping</p>
+        </div>
+      </div>
+
+      <!-- CART END -->
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HOME SECTION START -->
+    <section class="home" id="home">
+      <div class="box-container">
+        <span>New Arrivals</span>
+        <h1>Inspiring <span>2023</span> Interior Designs</h1>
+        <p>Carefully Curated. Authentically Built.</p>
+        <button> <a href="#products">Shop Now</a></button>
+      </div>
+
+      <video src="images/home-vid.mp4" muted loop autoplay></video>
+    </section>
+
+    <!-- HOME SECTION END -->
+
+    <!-- PRODUCTS SECTION -->
+    <section class="products" id="products">
+      <h1>Trending Products</h1>
+
+      <div class="box-container">
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-1.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Lounge Collection #10</h3>
+              <p><span>$599</span> $499</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-2.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Lounge Collection #11</h3>
+              <p><span>$1499</span> $1399</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-3.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Lighting Collection #2</h3>
+              <p><span>$699</span> $599</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-4.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Lighting Collection #4</h3>
+              <p><span>$599</span> $499</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-5.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></i></a>
+            </div>
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Lounge Collection #14</h3>
+              <p><span>$399</span> $299</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-6.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Lounge Collection #15</h3>
+              <p><span>$299</span> $199</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-7.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Bathroom Collection #4</h3>
+              <p><span>$299</span> $199</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/product-8.jpg" alt="" />
+            <div class="icons">
+              <p>New</p>
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+
+            <div class="btn">
+              <a href="#"><i class="fas fa-eye"></i>Quick View</a>
+            </div>
+
+            <div class="content">
+              <h3>Bedroom Collection #8</h3>
+              <p><span>$399</span> $299</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <button>Explore More <i class="fa-solid fa-arrow-right"></i></button>
+    </section>
+
+    <!-- PRODUCTS END    -->
+
+    <!--OFFER SECTION STARTS -->
+    <section class="offer" id="offers">
+      <div class="box-container">
+        <div class="box">
+          <h1>Take 100 Off <span>Sale!</span></h1>
+          <p>Products will reflect updated sales price. Sale runs until June while supplies last.</p>
+          <button>Buy Now<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </section>
+    <!-- OFFER SECTION ENDS -->
+
+    <!-- UPDATES SECTION START -->
+    <section class="new-update" id="updates">
+      <h1>New Updates</h1>
+
+      <div class="box-container">
+        
+        <div class="box">
+          <div class="image">
+            <img src="images/update-1.jpg" alt="">
+          </div>
+          <div class="content">
+            <span>April 28, 2023</span>
+            <h2>Updated Lounge Collection</h2>
+            <p>We are happy to announce that pieces #20-#25 are completed and ready to add to our catalogue. These lounge pieces are all various custom sofa additions.</p>
+            <a href="#" class="btn">Continue Reading...</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/update-2.jpg" alt="">
+          </div>
+          <div class="content">
+            <span>May 2nd, 2023</span>
+            <h2>Updated Bedroom Collection</h2>
+            <p>It took some time, but we are ready to add a new amount of custom bedframes to our collection. Each of them handcrafted and numbered by the artisan.</p>
+            <a href="#" class="btn">Continue Reading...</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/update-3.jpg" alt="">
+          </div>
+          <div class="content">
+            <span>May 17th, 2023</span>
+            <h2>Updated Bathroom Collection</h2>
+            <p>New custom bathroom pieces have been added to the collection! Pieces #30-#36 will soon be available for purchase both online and in store!</p>
+            <a href="#" class="btn">Continue Reading...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UPDATES SECTION END -->
+
+    <!-- FOOTER START -->
+    <section class="footer">
+      <div class="box-container">
+        
+        <div class="box">
+          <h1>About</h1>
+          <p>Kumo Interiors was created by lifelong interior designer Jenna Davis and her business partner Samm Riley. Each piece is built by authentic artisans and carefully curated into a Collection.</p>
+        </div>
+
+        <div class="box">
+          <h1>Quick Links</h1>
+          <div class="links">
+            <a href="#home">Home</a>
+            <a href="#products">Trending</a>
+            <a href="#products">Collections</a>
+            <a href="#offers">Sale</a>
+            <a href="#updates">News</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h1>Get In Touch!</h1>
+          <div class="links">
+            <a href="#">+123-456-7890</a>
+            <a href="#">KumoInteriors@email.com</a>
+            <a href="#" class="address">1122, Tysons Corner Center, McLean, VA 22102</a>
+            <a href="#" class="address">Mon - Sat: 8:00AM - 8:00PM</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h1>Follow Us On Socials!</h1>
+          <div class="icons">
+            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="credits">Copyright &copy;  Kumo Interiors 2023</div>
+
+    </section>
+    <!-- FOOTER END -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
